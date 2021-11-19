@@ -15,7 +15,7 @@ class userRegist extends Controller {
 	public function checkAllow(){
 		$regist = Model("SystemOption")->get("regist");
 		if($regist['openRegist'] != '1'){
-			show_json("未开启注册,请联系管理员!",false);
+			show_json("Chưa mở ra đăng ký, vui lòng liên hệ người quản lý!",false);
 		}
 	}
 	
