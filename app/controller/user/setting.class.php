@@ -263,7 +263,7 @@ class userSetting extends Controller {
 	 */
 	public function changePassword() {
 		if (empty($this->user['email']) && empty($this->user['phone'])) {
-			show_json('请先绑定邮箱或手机号!', false);
+			show_json('Vui lòng liên kết hòm thư hoặc số di động trước!', false);
 		}
 		show_json('', true);
 	}
