@@ -254,7 +254,7 @@ class userIndex extends Controller {
 			count($param) != 2 ||
 			md5(base64_decode($param[0]) . $apiToken) != $param[1]
 		) {
-			return show_json('API 接口参数错误!', false);
+			return show_json('Sai tham số API!', false);
 		}
 		$name = base64_decode($param[0]);
 		$res = Model('User')->where(array('name' => $name))->field('userID')->find();
