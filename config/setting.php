@@ -206,10 +206,10 @@ $config['settingSystemDefault'] = array(
 	'globalCss'			=> "",
 	'globalHtml'		=> "",
 
-	'newUserApp'		=> "trello,一起写office,石墨文档,ProcessOn,计算器,高德地图,icloud,OfficeConverter",
-	'newUserFolder'		=> "我的文档,我的图片,我的音乐",
-	'newGroupFolder'	=> "共享资源,文档,其他",	// 新建分组默认建立文件夹
-	'groupRootName'		=> '企业网盘',				// 企业组织架构根节点
+	'newUserApp'		=> "Trello,Office,ShimoDocs,ProcessOn,Máy tính,GaodeMap,icloud,OfficeConverter",
+	'newUserFolder'		=> "Hồ sơ của tôi,Hình ảnh của tôi,Âm nhạc của tôi",
+	'newGroupFolder'	=> "Tài nguyên chung,Hồ sơ,Khác",	// 新建分组默认建立文件夹
+	'groupRootName'		=> 'Thư mục nhóm',				// 企业组织架构根节点
 	
 	'versionType'		=> "A",			// 版本
 	'rootListUser'		=> 0,			// 组织架构根节点展示群组内用户
@@ -302,39 +302,39 @@ $config['settings']['sourceMeta'] = array(
 	'user_sourceAlias' => array(
 		"type"		=> "fileSelect",
 		"value"		=> "",
-		"display" 	=> "关联文件(附件)",
+		"display" 	=> "Văn kiện liên kết ( phụ kiện )",
 		"info"		=> array(
 			"single"	=> false,			// 单选or多选; true/false
 			"type"		=> "all", 			// 文件or文件夹选择; file|folder|all
 			"makeUrl"	=> false,			// 生成永久外链,
 			"valueKey"	=> "path", 			// 取结果中的key
 			"valueShowKey"	=> 'name',		// 显示名称;
-			"title"		=> "关联文件(附件)", // 对话框标题;		
+			"title"		=> "Văn kiện liên kết ( phụ kiện )", // 对话框标题;		
 			"authCheck"	=> "read",			// read,write或空;默认为可写入;
 		),
 	),
 	'user_fileEncodeType' => array(
 		"type"		=> "select",
 		"value"		=> "",
-		"display" 	=> "文件密级",
+		"display" 	=> "Cấp độ bảo mật",
 		"info"		=> array(
 			""  => '---',
-			"A"	=> "A-绝密",
-			"B"	=> "B-机密",
-			"C"	=> "C-秘密",
+			"A"	=> "A-Tuyệt mật",
+			"B"	=> "B-Cơ mật",
+			"C"	=> "C-Bí mật",
 		),
 	),
 	//扩展;
 	'user_sourceNumber' => array(
 		"type"		=> "input",
 		"value"		=> "",
-		"display" 	=> "宗卷编号",
+		"display" 	=> "Số hiệu",
 	),
 	//扩展;
 	'user_sourceParticipant' => array(
 		"type"		=> "user",
 		"value"		=> "",
-		"display" 	=> "参与者",
+		"display" 	=> "Người tham gia",
 		"selectType"=> "mutil",
 	),
 );
