@@ -2,7 +2,7 @@
 <html dir="ltr" mozdisallowselectionprint moznomarginboxes>
 	<?php
 		$lang = I18n::getType();
-		$allow = array('zh-CN','zh-TW','ja','ko');
+		$allow = array('zh-CN','zh-TW','ja','ko','vi');
 		if(!in_array($lang,$allow)){$lang = 'en-US';}
 		$langPath = $this->pluginHostDefault."static/pdfjs/web/locale/".$lang.'/';
 	?>
