@@ -206,7 +206,7 @@ $config['settingSystemDefault'] = array(
 	'globalCss'			=> "",
 	'globalHtml'		=> "",
 
-	'newUserApp'		=> "Trello,Office,ShimoDocs,ProcessOn,Máy tính,GaodeMap,icloud,OfficeConverter",
+	'newUserApp'		=> "trello,Clock,calculator,ProcessOn,photopea,zingtv,gold_miner,zingmp3",
 	'newUserFolder'		=> "Hồ sơ của tôi,Hình ảnh của tôi,Âm nhạc của tôi",
 	'newGroupFolder'	=> "Tài nguyên chung,Hồ sơ,Khác",	// 新建分组默认建立文件夹
 	'groupRootName'		=> 'Thư mục nhóm',				// 企业组织架构根节点
